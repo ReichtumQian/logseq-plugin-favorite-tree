@@ -1,5 +1,20 @@
 [English](README.md) | 中文
 
+此版本是 sethyuan 大神不再维护的版本，个人用于 LogSeq 0.10.9 版本。从 Action 中下载 zip 包，然后可能要在 `custom.css` 中输入以下内容才能正常工作（个人完全不懂前端）：
+
+```css
+.kef-ft-fav-arrow {
+  position: relative;
+  right: 0px;  /* 向左移动 */
+}
+
+[id^="radix-"] {
+  display: none;
+}
+```
+
+zip 包也可以在这里下载：[蓝奏云](https://wwek.lanzoue.com/ixqz82ikvuli)
+
 # logseq-plugin-favorite-tree
 
 一个在左侧边栏的树形结构的收藏。
